@@ -16,7 +16,7 @@ measurements.
 ```
 
 The ARCoder algorithm is described more fully in
-Moore, J., Hamid, S., and Bromberger, S., "An Evaluation of Transliterated
+Moore, J., Hamid, S., and Bromberger, S.: "An Evaluation of Transliterated
 Arabic Name Matching Methods".
 
 The Holmes implementation is derived from
