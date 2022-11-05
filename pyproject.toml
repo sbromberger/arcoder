@@ -8,6 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "arcoder"
 version = "v0.1.0"
+authors = [ {name="Seth Bromberger"}, {name="Jessica Moore"}, {name="Sam Hamid"} ]
 description="Implementation of the ARCoder Transliterated Arabic Name Matching Encoding Algorithm"
 readme = "README.md"
 requires-python = ">=3.9"
