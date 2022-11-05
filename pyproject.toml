@@ -1,5 +1,20 @@
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=43.0.0", "wheel"]
+# requires = ["setuptools>=43.0.0", "wheel"]
+requires = ["setuptools>=43.0.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "arcoder"
+version = "v0.1.0"
+description="Implementation of the ARCoder Transliterated Arabic Name Matching Encoding Algorithm"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["name matching", "Arabic"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
